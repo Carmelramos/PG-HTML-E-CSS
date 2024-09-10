@@ -1,0 +1,131 @@
+
+body{
+    text-align: center;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    background: rgb(206, 235, 208)
+}
+
+caption, .wiki, .aprendeu{
+    text-transform: uppercase;
+    color: rgb(20, 61, 22);
+    text-shadow: rgb(77, 223, 84) 5px 6px 4px;
+}
+
+.tabelas{
+    display: table;
+    margin: auto;
+    text-align: center;
+    border: 5;
+    width: 60%;
+}
+
+th {
+    background-color: rgb(20, 61, 22);
+    color: white;
+  }
+
+.linha:hover {
+    background-color: rgb(20, 61, 22);
+    color: white;
+}
+
+p{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.citacao:hover, cite:hover{
+    background: white;
+}
+
+blockquote, cite{
+    color: red;
+    text-shadow: rgb(20, 61, 22) 1px 1px 1px;
+}
+
+.link{
+    color: blue;
+    text-decoration: none;
+}
+
+.img:hover{
+    background: rgb(20, 61, 22);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.img1:hover{
+    background: rgb(206, 235, 208);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+ul, ol{
+    font-size: 1.0rem;
+    line-height: 1.5;
+    list-style-position: inside;
+    
+}
+
+h3{
+    color: white
+}
+
+section{
+    background-color: rgb(20, 61, 22);
+    color: white;
+}
+
+.livros{
+    height: 200px;
+    background-color: grey;
+    background-image: url("../img/livros.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inv{
+    height: 200px;
+    background-color: grey;
+    background-image: url("../img/inv-livros.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 5%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid rgb(20, 61, 22);
+    border-radius: 5px;
+}
